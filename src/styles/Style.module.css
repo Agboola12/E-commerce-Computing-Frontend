@@ -25,3 +25,7 @@
         -webkit-background-size: cover;
         -o-background-size: cover;
     }
+
+    #profile{
+        border-radius: 50px;
+    }
