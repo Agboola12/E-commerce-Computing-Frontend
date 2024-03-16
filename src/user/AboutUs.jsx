@@ -28,8 +28,60 @@ const AboutUs = () => {
                         </p>
                     </div>
                 </div>
+            </div>
+
+            <div className='text-center mx-auto p-5' id={style.team}>
+                <p className='fw-bold fs-3'>Our Team</p>
+                <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illum veritatis obcaecati libero laudantium ea, et voluptatibus unde? La
+                    boriosam rem velit, at mollitia neque quod culpa animi consequuntur amet maiores? Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Corporis, labore asperiores! A molestiae magni quidem eos error imp
+                </p>
+                <div className='row text-center mx-auto'>
+                    <div className='col-lg-4'>
+                        <img src={aa} alt='jjgj' className='w-25 ' id={style.profile} />
+                        <p>John Doe</p>
+                        <p>Team Member</p>
+                    </div>
+                    <div className='col-lg-4'>
+                        <img src={aa} alt='jjgj' className='w-25 ' id={style.profile} />
+                        <p>John Doe</p>
+                        <p>Team Member</p>
+                    </div>
+                    <div className='col-lg-4'>
+                        <img src={aa} alt='jjgj' className='w-25  ' id={style.profile} />
+                        <p>John Doe</p>
+                        <p>Team Member</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className='container-fluid p-5' id={style.footer}>
+            <div className='row'>
+                <div className='col-lg-3'>
+                    <p>
+                        <i className='fa fa-time'></i><br/>
+                        -24/7 active
+                         
+                    </p>
+                </div>
+                <div className='col-lg-3'>
+                    <p>
+                        <i className='fa fa-location-dot'></i><br/>
+                        103 North Loundon Street, <br/>
+                        Winchider, VA 
+                    </p>
+                </div>
+                <div className='col-lg-3'>
+                    <p>
+                        Help
+                        103 North Loundon Street, <br/>
+                        Winchider, VA 
+                    </p>
+                </div>
 
             </div>
+            </div>
+
         </div>
     )
 }
