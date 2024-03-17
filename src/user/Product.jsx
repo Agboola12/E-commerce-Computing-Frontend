@@ -4,6 +4,7 @@ import style from '../styles/Style.module.css'
 import product from '../assets/product.png'
 import neww from '../assets/00.jpg'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 
 const Product = () => {
@@ -14,18 +15,22 @@ const Product = () => {
             <header id={style.head}>
                 <p className='fw-bold fs-1 text-white text-center' style={{ marginTop: '2em' }}>About Us</p>
             </header>
+        <div className='container'>
 
-            <div className='container mt-5'>
-
-                <ul className="nav nav-tabs">
+                <ul className="nav nav-tabs mt-5">
                     <li className="nav-item">
-                        <a className="nav-link active" data-bs-toggle="tab" href="#home">All</a>
+                        <Link className="nav-link active" data-bs-toggle="tab" href="#home">All</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" data-bs-toggle="tab" href="#menu1">Phones</a>
+                        <Link className="nav-link" data-bs-toggle="tab" href="#menu1">Phones</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" data-bs-toggle="tab" href="#menu1">EarPods</Link>
                     </li>
                 </ul>
+        </div>
 
+            <div className='container mt-5'>
                 <div className="tab-content">
                     <div className="tab-pane container active" id="home">
                         <div className='row text-center mb-5' id='home'>

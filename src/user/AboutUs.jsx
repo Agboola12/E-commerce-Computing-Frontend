@@ -11,7 +11,7 @@ const AboutUs = () => {
             <NavBar />
 
             <header id={style.head}>
-                <p className='fw-bold fs-1 text-white text-center'>About Us</p>
+                <p className='fw-bold fs-1 text-white text-center' style={{ marginTop: '2em' }}>About Us</p>
             </header>
             <div className='container bg-white p-5'>
                 <div className='row mx-auto'>
