@@ -50,15 +50,18 @@ const Product = () => {
 
                         </div>
                     </div>
-
                 </div>
+
+
+            </div>
+            <div className='container mt-5'>
                 <div className='row text-center mb-5 '>
                     <div className='col-lg-3 shadow bg-white rounded-sm  '>
                         <div className=''>
                             <img src={product} className='w-100' />
                             <p className='text-primary fw-bold mt-2'>Dell</p>
                             <p className='fw-bold'>$45.00</p>
-                            <button className='btn btn-success text-white mb-3'>View Button</button>
+                            <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4" style={{backgroundColor:'#1C7C68'}}>View Button</button>
                         </div>
                     </div>
                     <div className='col-lg-3 shadow bg-white rounded-sm  '>
@@ -66,27 +69,29 @@ const Product = () => {
                             <img src={product} className='w-100' />
                             <p className='text-primary fw-bold mt-2'>Dell</p>
                             <p className='fw-bold'>$45.00</p>
-                            <button className='btn btn-success text-white mb-3'>View Button</button>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 shadow bg-white rounded-sm  '>
-                        <div className=''>
-                            <img src={product} className='w-100' />
-                            <p className='text-primary fw-bold mt-2'>Dell</p>
-                            <p className='fw-bold'>$45.00</p>
-                            <button className='btn btn-success text-white mb-3'>View Button</button>
-                        </div>
-                    </div>
-                    <div className='col-lg-3 shadow bg-white rounded-sm  '>
-                        <div className=''>
-                            <img src={product} className='w-100' />
-                            <p className='text-primary fw-bold mt-2'>Dell</p>
-                            <p className='fw-bold'>$45.00</p>
-                            <button className='btn btn-success text-white mb-3'>View Button</button>
-                        </div>
-                    </div>
+                            <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{backgroundColor:'#1C7C68'}}>View Button</button>
 
+                        </div>
+                    </div>
+                    <div className='col-lg-3 shadow bg-white rounded-sm  '>
+                        <div className=''>
+                            <img src={product} className='w-100' />
+                            <p className='text-primary fw-bold mt-2'>Dell</p>
+                            <p className='fw-bold'>$45.00</p>
+                            <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{backgroundColor:'#1C7C68'}}>View Button</button>
+                        </div>
+                    </div>
+                    <div className='col-lg-3 shadow bg-white rounded-sm  '>
+                        <div className=''>
+                            <img src={product} className='w-100' />
+                            <p className='text-primary fw-bold mt-2'>Dell</p>
+                            <p className='fw-bold'>$45.00</p>
+                            <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{backgroundColor:'#1C7C68'}}>View Button</button>
+
+                        </div>
+                    </div>
                 </div>
+
 
             </div>
 
