@@ -27,7 +27,7 @@
 #head {
     position: relative;
     overflow: hidden;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     background: url("../assets/05.png"), linear-gradient(to right, #1C4878, #1D6075, #1E846F);
     background-size: cover;
