@@ -33,7 +33,7 @@ const Footer = () => {
                     <h6 className="text-medium text-uppercase text-white"><i className='fa fa-phone'></i></h6>
                     <ul className="list-unstyled">
                         <li><Link to="mailto:admin@victorycenter.org.uk" className="text-white text-decoration-none">admin@victorycenter.org.uk</Link></li>
-                        <li><Link to="mailto:pastordoherty@victorycenter.org.uk" className="text-white text-decoration-none">pastordoherty@victorycenter.org.uk</Link></li>
+                        <li onClick={() => handleMobileClick}> +2349070684164 </li>
                     </ul>
                 </div>
 
