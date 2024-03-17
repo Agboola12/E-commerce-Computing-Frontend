@@ -1,6 +1,5 @@
 import React from 'react';
 import style from '../styles/Style.module.css';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const handleMobileClick = (mobile) => {
