@@ -1,7 +1,9 @@
 import React from 'react'
 import NavBar from './NavBar'
 import style from '../styles/Style.module.css'
-import aa from '../assets/aa.jpg'
+import aa from '../assets/bb.jpg'
+import team from '../assets/aa.jpg'
+import Footer from './Footer'
 
 const AboutUs = () => {
     return (
@@ -38,24 +40,24 @@ const AboutUs = () => {
                 </p>
                 <div className='row text-center mx-auto'>
                     <div className='col-lg-4'>
-                        <img src={aa} alt='jjgj' className='w-25 ' id={style.profile} />
-                        <p>John Doe</p>
-                        <p>Team Member</p>
+                        <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br/>
+                        <small className='fw-bold'>John Doe</small><br/>
+                        <small>Team Member</small>
                     </div>
                     <div className='col-lg-4'>
-                        <img src={aa} alt='jjgj' className='w-25 ' id={style.profile} />
-                        <p>John Doe</p>
-                        <p>Team Member</p>
+                        <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br/>
+                        <small className='fw-bold'>John Doe</small><br/>
+                        <small>Team Member</small>
                     </div>
                     <div className='col-lg-4'>
-                        <img src={aa} alt='jjgj' className='w-25  ' id={style.profile} />
-                        <p>John Doe</p>
-                        <p>Team Member</p>
+                        <img src={team} alt='jjgj' className='w-25  ' id={style.profile} /><br/>
+                        <small className='fw-bold'>John Doe</small><br/>
+                        <small>Team Member</small>
                     </div>
                 </div>
             </div>
 
-
+<Footer/>
 
         </div>
     )

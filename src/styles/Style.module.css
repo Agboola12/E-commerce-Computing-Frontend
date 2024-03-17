@@ -1,41 +1,52 @@
+/* #head {
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+    width: 100%;
+}
 
-    #head {
-        position: relative;
-        overflow: hidden;
-        height: 50vh;
-        width: 100%;
-    }
-    
-    #head::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(rgba(45, 72, 107, 0.5), rgba(45, 72, 107, 0.5));
-        z-index: 1; /* Ensure the gradient layer is above the image */
-    }
-    
-    #head {
-        background: url("../assets/05.png");
-        background-size: cover;
-        background-attachment: fixed;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        -o-background-size: cover;
-    }
+#head::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #1C4878, #1D6075, #1E846F);
+    z-index: 1;
+}
 
-    #profile{
-        border-radius: 50px;
-    }
+#head {
+    background: url("../assets/05.png");
+    background-size: cover;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+} */
+#head {
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+    width: 100%;
+    background: url("../assets/05.png"), linear-gradient(to right, #1C4878, #1D6075, #1E846F);
+    background-size: cover;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
 
-    #team{
-        background-color: #D9D9D9;
-    }
+#profile {
+    border-radius: 50px;
+}
 
-    #footer{
-        /* background-color: #1B377B; */
-        background: linear-gradient(to right, #1B377B, #1D6873);
-        color: white;
-    }
+#team {
+    background-color: #D9D9D9;
+}
+
+#footer {
+    /* background-color: #1B377B; */
+    background: linear-gradient(to right, #1C4878, #1D6075, #1E846F);
+    color: white;
+}
