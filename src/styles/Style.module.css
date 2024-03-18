@@ -9,7 +9,7 @@
     height: 100vh;
     width: 100%;
     }
-    
+
 #head {
     position: relative;
     overflow: hidden;
@@ -35,4 +35,8 @@
     /* background-color: #1B377B; */
     background: linear-gradient(to right, #1C4878, #1D6075, #1E846F);
     color: white;
+}
+
+#text{
+    color: #1B4579;
 }

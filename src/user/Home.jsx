@@ -1,8 +1,10 @@
 import React from 'react'
 import logo from '../assets/logo.jpg'
 import { Link } from 'react-router-dom'
+import style from '../styles/Style.module.css'
 
-const NavBar = () => {
+
+const Home = () => {
     return (
       <div>
         <div id={style.header}>
@@ -14,7 +16,7 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto fw-bold fs-5">
                         <li className="nav-item active list-line-item mr-5 ">
-                            <Link to="/dashboard" className="nav-link active text-center ">Home</Link>
+                            <Link to="/" className="nav-link active text-center ">Home</Link>
                         </li>
                         <li className="nav-item dropdown list-line-item mr-5 " >
                             <Link to="/product" className="nav-link active text-center">Our Products </Link>
@@ -23,7 +25,7 @@ const NavBar = () => {
                             <Link to="/about" className="nav-link active text-center ">About Us</Link>
                         </li>
                         <li className="nav-item dropdown list-line-item mr-5 " >
-                            <Link to="/document" className="nav-link active text-center">Contact </Link>
+                            <Link to="/contact" className="nav-link active text-center">Contact </Link>
                         </li>
                         <li className="nav-item dropdown list-line-item mr-5 " >
                             <Link to="/review" className="nav-link active text-center">Product Review </Link>
@@ -31,9 +33,21 @@ const NavBar = () => {
                     </ul>
                 </div>
             </nav>
-            <div className='container'>
-              <div>
-                
+            <div className='container' id={style.text}>
+              <div className='col-lg-6'>
+                <div className='shadow-sm bg-white p-4'>
+                    <small>Engineer</small><br/>
+                    <small>Elijah</small>
+                </div>
+
+              </div>
+              <div className='col-lg-6'>
+                <div className='shadow-sm bg-white p-4'>
+                    <small>We Buy!</small><br/>
+                    <small>We Sell!</small><br/>
+                    <small>We Repair!</small>
+                </div>
+
               </div>
             </div>
         </div>
@@ -41,4 +55,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+export default Home

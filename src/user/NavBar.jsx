@@ -13,7 +13,7 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto fw-bold fs-5">
                         <li className="nav-item active list-line-item mr-5 ">
-                            <Link to="/dashboard" className="nav-link active text-center ">Home</Link>
+                            <Link to="/" className="nav-link active text-center ">Home</Link>
                         </li>
                         <li className="nav-item dropdown list-line-item mr-5 " >
                             <Link to="/product" className="nav-link active text-center">Our Products </Link>
