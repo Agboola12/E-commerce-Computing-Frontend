@@ -20,19 +20,19 @@ const Home = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto fw-bold fs-5">
               <li className="nav-item active list-line-item mr-5 ">
-                <Link to="/" className="nav-link active text-center ">Home</Link>
+                <Link to="/" className="nav-link active text-center text-white">Home</Link>
               </li>
               <li className="nav-item dropdown list-line-item mr-5 " >
-                <Link to="/product" className="nav-link active text-center">Our Products </Link>
+                <Link to="/product" className="nav-link active text-center text-white">Our Products </Link>
               </li>
               <li className="nav-item active list-line-item mr-5 ">
-                <Link to="/about" className="nav-link active text-center ">About Us</Link>
+                <Link to="/about" className="nav-link active text-center  text-white">About Us</Link>
               </li>
               <li className="nav-item dropdown list-line-item mr-5 " >
-                <Link to="/contact" className="nav-link active text-center">Contact </Link>
+                <Link to="/contact" className="nav-link active text-center text-white">Contact </Link>
               </li>
               <li className="nav-item dropdown list-line-item mr-5 " >
-                <Link to="/review" className="nav-link active text-center">Product Review </Link>
+                <Link to="/review" className="nav-link active text-center text-white">Product Review </Link>
               </li>
             </ul>
           </div>
@@ -62,7 +62,7 @@ const Home = () => {
           <div className='row text-dark'>
             <div className='col-lg-3 mx-auto'>
               <div className='bg-white p-4 shadow-sm' style={{borderRadius:'20px'}}>
-                <p className='fw-bold fs-5 text-center'>We Buy</p>
+                <p className='fw-bold fs-5 text-center' style={{color:'#1B4579'}}>We Buy</p>
                 <p><i className='fa fa-phone mr-4'></i>Phone</p>
                 <p><i className='fa fa-laptop mr-4'></i>Laptops</p>
                 <p><i className='fa fa-gadgets mr-4'></i>Other Electronic Gadgets</p>
@@ -70,7 +70,7 @@ const Home = () => {
             </div>
             <div className='col-lg-3 mx-auto'>
               <div className='bg-white p-4 shadow-sm' style={{borderRadius:'20px'}}>
-                <p className='fw-bold fs-5 text-center'>We Sell</p>
+                <p className='fw-bold fs-5 text-center' style={{color:'#1B4579'}}>We Sell</p>
                 <p><i className='fa fa-phone mr-4'></i>Phone</p>
                 <p><i className='fa fa-laptop mr-4'></i>Laptops</p>
                 <p><i className='fa fa-gadgets mr-4'></i>Other Electronic Gadgets</p>
@@ -78,7 +78,7 @@ const Home = () => {
             </div>
             <div className='col-lg-3 mx-auto'>
               <div className='bg-white p-4 shadow-sm' style={{borderRadius:'20px'}}>
-                <p className='fw-bold fs-5 text-center'>We Repair</p>
+                <p className='fw-bold fs-5 text-center' style={{color:'#1B4579'}}>We Repair</p>
                 <p><i className='fa fa-phone mr-4'></i>Phone</p>
                 <p><i className='fa fa-laptop mr-4'></i>Laptops</p>
                 <p><i className='fa fa-gadgets mr-4'></i>Other Electronic Gadgets</p>
