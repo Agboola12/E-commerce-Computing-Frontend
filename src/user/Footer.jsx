@@ -16,13 +16,13 @@ const Footer = () => {
             <div className='row '>
                 <div className='col-lg-3'>
                     <p>
-                        <i className='fa fa-clock'></i><br />
+                <h6 className="text-medium text-uppercase text-white">Available</h6>
                         - 24/7 active
                     </p>
                 </div>
                 <div className='col-lg-3'>
                     <p>
-                        <i className='fa fa-location-dot'></i><br />
+                <h6 className="text-medium text-uppercase text-white">Find Us</h6>
                         103 North Loundon Street, <br />
                         Winchider, VA
                     </p>
@@ -36,9 +36,9 @@ const Footer = () => {
                 <div className='col-lg-3'>
                 <h6 className="text-medium text-uppercase text-white">Call Us</h6>
                     <ul className="list-unstyled">
-                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2349070684164')}>+2349070684164</li>
-                <h6 className="text-medium text-uppercase text-white mt-2">Whatsapp</h6>
-                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2349070684164')}>+2349070684164</li>
+                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2347043985883')}>+2347043985883 </li>
+                <h6 className="text-medium text-uppercase text-white mt-4">Whatsapp</h6>
+                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2348138739589')}>+2348138739589</li>
                     </ul>
                 </div>
             </div>
@@ -49,9 +49,9 @@ const Footer = () => {
                         <div>© 2024 RCCG Victory Center Luton. All Rights Reserved</div>
 
                         <ul className="list-unstyled d-flex mb-0" style={{ gap: "10px" }}>
-                            <li><Link to="#" className="text-white"><i className="bi bi-facebook"></i></Link></li>
-                            <li><Link to="#" className="text-white"><i className="bi bi-instagram"></i></Link></li>
-                            <li><Link to="#" className="text-white"><i className="bi bi-youtube"></i></Link></li>
+                            <li><Link to="#" className="text-white"><i className="fa fa-facebook"></i></Link></li>
+                            <li><Link to="#" className="text-white"><i className="fa fa-instagram"></i></Link></li>
+                            <li><Link to="#" className="text-white"><i className="fa fa-whatsapp"></i></Link></li>
                         </ul>
                     </div>
                 </div>
