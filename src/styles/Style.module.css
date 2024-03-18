@@ -39,5 +39,10 @@
 
 #text{
     color: #1B4579;
-    margin-top: 13em;
+    margin-top: 10em;
+}
+
+#service{
+    background: linear-gradient(to right, #1C4878, #1D6075, #1E846F);
+
 }

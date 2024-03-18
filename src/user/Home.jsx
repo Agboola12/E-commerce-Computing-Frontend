@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.jpg'
 import { Link } from 'react-router-dom'
 import style from '../styles/Style.module.css'
+import Footer from './Footer'
 
 
 const Home = () => {
@@ -35,23 +36,34 @@ const Home = () => {
         </nav>
         <div className='container mx-auto text-center' id={style.text}>
           <div className='row mx-auto text-center'>
-            <div className='col-lg-3 mx-auto'>
-              <div className='shadow-sm rounded-sm bg-white p-5'>
+            <div className='col-lg-3 mx-auto mt-3'>
+              <div className='shadow-sm rounded-sm bg-white p-4'>
                 <small className='fs-2 fw-bold'>Engineer</small><br />
                 <small className=' fw-bold' style={{ fontSize: '3em' }}>Elijah</small>
               </div>
             </div>
-            <div className='col-lg-3 mx-auto mt-4'>
+            <div className='col-lg-3 mx-auto mt-3'>
               <div className='shadow-sm rounded-sm bg-white p-4'>
-                <small className='fw-bold fs-2'>We Buy!</small><br />
-                <small className='fw-bold fs-2'>We Sell!</small><br />
-                <small className='fw-bold fs-2'>We Repair!</small>
+                <small className='fw-bold fs-3'>We Buy!</small><br />
+                <small className='fw-bold fs-3'>We Sell!</small><br />
+                <small className='fw-bold fs-3'>We Repair!</small>
               </div>
-
             </div>
           </div>
         </div>
       </div>
+
+      <div className='container-fluid p-5 mb-5 text-white text-center' id={style.service}>
+          <p className='h2 fw-bold'>Our Services</p>
+          <div className='row'>
+            <div className='col-lg-4 bg-white p-3 shadow-sm'>
+                <p className='fw-bold'>We Buy</p>
+            </div>
+          </div>
+
+
+      </div>
+      <Footer/>
     </div>
   )
 }
