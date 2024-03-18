@@ -39,7 +39,7 @@ const Product = () => {
                                     <img src={product} className='w-100' />
                                     <p className='text-primary fw-bold mt-2'>Dell</p>
                                     <p className='fw-bold'>$45.00</p>
-                                    <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4" style={{ backgroundColor: '#1C7C68' }}>View Button</button>
+                                    <Link to="/product-detail" className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4" style={{ backgroundColor: '#1C7C68' }}>View Button</Link>
                                 </div>
                             </div>
                             <div className='col-lg-3 shadow bg-white rounded-sm  '>

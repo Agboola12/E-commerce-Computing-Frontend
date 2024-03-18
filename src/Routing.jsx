@@ -4,6 +4,7 @@ import Home from "./user/Home";
 import AboutUs from "./user/AboutUs";
 import Product from "./user/Product";
 import ProductReview from "./user/ProductReview";
+import ProductDetail from "./user/ProductDetail";
 
 const Routing = () => {
   return (
@@ -13,6 +14,7 @@ const Routing = () => {
                     <Route path="/about" element={<AboutUs/>}/>
                     <Route path="/product" element={<Product/>}/>
                     <Route path="/review" element={<ProductReview/>}/>
+                    <Route path="/product-detail" element={<ProductDetail/>}/>
             </Routes>
     </>
   );
