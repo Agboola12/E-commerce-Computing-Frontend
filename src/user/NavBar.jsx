@@ -27,6 +27,9 @@ const NavBar = () => {
                         <li className="nav-item dropdown list-line-item mr-5 " >
                             <Link to="/document" className="nav-link active text-center">Contact </Link>
                         </li>
+                        <li className="nav-item dropdown list-line-item mr-5 " >
+                            <Link to="/review" className="nav-link active text-center">Product Review </Link>
+                        </li>
 
                     </ul>
 
