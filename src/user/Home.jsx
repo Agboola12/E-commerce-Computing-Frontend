@@ -36,8 +36,8 @@ const Home = () => {
             <div className='container' id={style.text}>
               <div className='col-lg-6'>
                 <div className='shadow-sm bg-white p-4'>
-                    <small>Engineer</small><br/>
-                    <small>Elijah</small>
+                    <small className='fs-2 fw-bold'>Engineer</small><br/>
+                    <small className=' fw-bold' style={{fontSize:'3em'}}>Elijah</small>
                 </div>
 
               </div>
