@@ -56,23 +56,29 @@ const Home = () => {
       <div className='container-fluid p-5 mb-5 text-center' id={style.service}>
           <p className='h2 fw-bold text-white'>Our Services</p>
           <div className='row text-dark'>
-            <div className='col-lg-4 bg-white p-3 shadow-sm'>
+            <div className='col-lg-3 '>
+              <div className='bg-white p-3 shadow-sm'>
                 <p className='fw-bold h6'>We Buy</p>
                 <p><i className='fa fa-phone'></i>Phone</p>
                 <p><i className='fa fa-laptop'></i>Laptops</p>
                 <p><i className='fa fa-gadgets'></i>Other Electronic Gadgets</p>
+              </div>
             </div>
-            <div className='col-lg-4 bg-white p-3 shadow-sm'>
+            <div className='col-lg-3 '>
+              <div className='bg-white p-3 shadow-sm'>
                 <p className='fw-bold h6'>We Sell</p>
                 <p><i className='fa fa-phone'></i>Phone</p>
                 <p><i className='fa fa-laptop'></i>Laptops</p>
                 <p><i className='fa fa-gadgets'></i>Other Electronic Gadgets</p>
+              </div>
             </div>
-            <div className='col-lg-4 bg-white p-3 shadow-sm'>
+            <div className='col-lg-3 '>
+              <div className='bg-white p-3 shadow-sm'>
                 <p className='fw-bold h6'>We Repair</p>
                 <p><i className='fa fa-phone'></i>Phone</p>
                 <p><i className='fa fa-laptop'></i>Laptops</p>
                 <p><i className='fa fa-gadgets'></i>Other Electronic Gadgets</p>
+              </div>
             </div>
           </div>
 
