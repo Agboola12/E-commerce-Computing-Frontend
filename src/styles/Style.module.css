@@ -1,5 +1,5 @@
 #header{
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url("../assets/04.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../assets/04.png");
     background-size: cover;
     background-attachment: fixed;
     -moz-background-size: cover;
@@ -39,5 +39,5 @@
 
 #text{
     color: #1B4579;
-    margin-top: 6em;
+    margin-top: 13em;
 }
