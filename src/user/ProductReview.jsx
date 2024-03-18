@@ -17,11 +17,12 @@ const ProductReview = () => {
 
             <div className='container mt-5'>
                 <div className='p-3 border border-primary mt-4'>
-                    <div>
+                    <div className='d-flex'>
                         <img src={aa} alt='jjgj' width={100} id={style.profile} />
-                        <div></div>
-                        <small>John Doe</small>
-                        <small>18 Aug 2023</small>
+                        <div className='ml-3 mt-4'>
+                            <small>John Doe</small><br />
+                            <small>18 Aug 2023</small>
+                        </div>
                     </div>
                     <div className='mt-3'>
                         <p>
@@ -46,10 +47,12 @@ const ProductReview = () => {
                     </div>
                 </div>
                 <div className='p-3 border border-primary mt-4 mb-5'>
-                    <div>
+                    <div className='d-flex'>
                         <img src={aa} alt='jjgj' width={100} id={style.profile} />
-                        <small>John Doe</small>
-                        <small>18 Aug 2023</small>
+                        <div className='ml-3 mt-4'>
+                            <small>John Doe</small><br />
+                            <small>18 Aug 2023</small>
+                        </div>
                     </div>
                     <div className='mt-3'>
                         <p>
