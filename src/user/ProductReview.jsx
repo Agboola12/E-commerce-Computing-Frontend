@@ -2,6 +2,8 @@ import React from 'react'
 import NavBar from './NavBar'
 import style from '../styles/Style.module.css'
 import Footer from './Footer'
+import aa from '../assets/bb.jpg'
+
 
 
 const ProductReview = () => {
@@ -16,7 +18,9 @@ const ProductReview = () => {
             <div className='container mt-5'>
                 <div className='p-3 border border-primary mt-4'>
                     <div>
-                        <small>John Doe</small><br />
+                        <img src={aa} alt='jjgj' width={100} id={style.profile} />
+                        <div></div>
+                        <small>John Doe</small>
                         <small>18 Aug 2023</small>
                     </div>
                     <div className='mt-3'>
@@ -27,9 +31,12 @@ const ProductReview = () => {
                     </div>
                 </div>
                 <div className='p-3 border border-primary mt-4'>
-                    <div>
-                        <small>John Doe</small><br />
-                        <small>18 Aug 2023</small>
+                    <div className='d-flex'>
+                        <img src={aa} alt='jjgj' width={100} id={style.profile} />
+                        <div className='ml-3 mt-4'>
+                            <small>John Doe</small><br />
+                            <small>18 Aug 2023</small>
+                        </div>
                     </div>
                     <div className='mt-3'>
                         <p>
@@ -40,7 +47,8 @@ const ProductReview = () => {
                 </div>
                 <div className='p-3 border border-primary mt-4 mb-5'>
                     <div>
-                        <small>John Doe</small><br />
+                        <img src={aa} alt='jjgj' width={100} id={style.profile} />
+                        <small>John Doe</small>
                         <small>18 Aug 2023</small>
                     </div>
                     <div className='mt-3'>
@@ -52,7 +60,7 @@ const ProductReview = () => {
                 </div>
             </div>
 
-            <Footer/>
+            <Footer />
         </div>
     )
 }
