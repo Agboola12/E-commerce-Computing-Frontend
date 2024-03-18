@@ -55,6 +55,7 @@ const Product = () => {
                             <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{ backgroundColor: '#1C7C68' }}>View Button</button>
                         </div>
                     </div>
+                    </div>
 
                     <div className='row text-center mb-5 '>
                         <div className='col-lg-3 shadow bg-white rounded-sm  '>
@@ -96,10 +97,6 @@ const Product = () => {
 
 
                     </div>
-                    <div className="tab-pane container fade" id="menu2">
-
-                    </div>
-                </div>
 
 
 
