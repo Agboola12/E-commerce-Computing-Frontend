@@ -21,9 +21,9 @@ const NavBar = () => {
                         <li className="nav-item active list-line-item mr-5 ">
                             <Link to="/about" className="nav-link active text-center ">About Us</Link>
                         </li>
-                        <li className="nav-item dropdown list-line-item mr-5 " >
+                        {/* <li className="nav-item dropdown list-line-item mr-5 " >
                             <Link to="/document" className="nav-link active text-center">Contact </Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item dropdown list-line-item mr-5 " >
                             <Link to="/review" className="nav-link active text-center">Product Review </Link>
                         </li>

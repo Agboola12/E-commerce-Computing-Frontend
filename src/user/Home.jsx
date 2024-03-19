@@ -1,5 +1,8 @@
 import React from 'react'
 import logo from '../assets/logo.jpg'
+import phone from '../assets/Smartphone.png'
+import laptop from '../assets/Laptop.png'
+import gadget from '../assets/Gadget.png'
 import { Link } from 'react-router-dom'
 import style from '../styles/Style.module.css'
 import Footer from './Footer'
@@ -63,25 +66,25 @@ const Home = () => {
             <div className='col-lg-3 mx-auto mt-3'>
               <div className='bg-white p-4 shadow-sm' style={{borderRadius:'20px'}}>
                 <p className='fw-bold fs-5 text-center ' style={{color:'#1B4579'}}>We Buy</p>
-                <p><i className='fa fa-phone mr-4'></i>Phone</p>
-                <p><i className='fa fa-laptop mr-4'></i>Laptops</p>
-                <p><i className='fa fa-gadgets mr-4'></i>Other Electronic Gadgets</p>
+                <p><img src={phone} alt='phone' className='mr-4'/>Phone</p>
+                <p><img src={laptop} alt='laptop' className='mr-4'/>Laptops</p>
+                <p><img src={gadget} alt='gadget' className='mr-3'/>Other Electronic Gadgets</p>
               </div>
             </div>
             <div className='col-lg-3 mx-auto mt-3'>
               <div className='bg-white p-4 shadow-sm' style={{borderRadius:'20px'}}>
                 <p className='fw-bold fs-5 text-center ' style={{color:'#1B4579'}}>We Sell</p>
-                <p><i className='fa fa-phone mr-4'></i>Phone</p>
-                <p><i className='fa fa-laptop mr-4'></i>Laptops</p>
-                <p><i className='fa fa-gadgets mr-4'></i>Other Electronic Gadgets</p>
+                <p><img src={phone} alt='phone' className='mr-4'/>Phone</p>
+                <p><img src={laptop} alt='laptop' className='mr-4'/>Laptops</p>
+                <p><img src={gadget} alt='gadget' className='mr-3'/>Other Electronic Gadgets</p>
               </div>
             </div>
             <div className='col-lg-3 mx-auto mt-3'>
               <div className='bg-white p-4 shadow-sm' style={{borderRadius:'20px'}}>
                 <p className='fw-bold fs-5 text-center ' style={{color:'#1B4579'}}>We Repair</p>
-                <p><i className='fa fa-phone mr-4'></i>Phone</p>
-                <p><i className='fa fa-laptop mr-4'></i>Laptops</p>
-                <p><i className='fa fa-gadgets mr-4'></i>Other Electronic Gadgets</p>
+                <p><img src={phone} alt='phone' className='mr-4'/>Phone</p>
+                <p><img src={laptop} alt='laptop' className='mr-4'/>Laptops</p>
+                <p><img src={gadget} alt='gadget' className='mr-3'/>Other Electronic Gadgets</p>
               </div>
             </div>
           </div>
