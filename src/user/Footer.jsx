@@ -46,12 +46,12 @@ const Footer = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="d-flex justify-content-between align-items-center">
-                        <div>© 2024 RCCG Victory Center Luton. All Rights Reserved</div>
+                        <div>© Engineer Elijah. All Rights Reserved</div>
 
                         <ul className="list-unstyled d-flex mb-0" style={{ gap: "10px" }}>
-                            <li><Link to="#" className="text-white"><i className="fa fa-facebook"></i></Link></li>
-                            <li><Link to="#" className="text-white"><i className="fa fa-instagram"></i></Link></li>
-                            <li><Link to="#" className="text-white"><i className="fa fa-whatsapp"></i></Link></li>
+                            <li><Link to="https://www.facebook.com/elijah.amosun.79?mibextid=ibOpuV" className="text-white"><i className="fab fa-facebook"></i></Link></li>
+                            <li><Link to="#" className="text-white"><i className="fab fa-instagram"></i></Link></li>
+                            <li><Link to="#" className="text-white"><i className="fab fa-whatsapp"></i></Link></li>
                         </ul>
                     </div>
                 </div>
