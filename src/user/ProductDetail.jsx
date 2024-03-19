@@ -23,7 +23,7 @@ const ProductDetail = () => {
                             saepe dolore qui enim, eaque temporibus necessitatibus eveniet suscipit, corporis asperiores natus voluptatem
                             Dignissimos, sint placeat!
                         </p>
-                        <Link to="" className='btn btn-main-1 w-50 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#1C7C68' }}>Get Product</Link>
+                        <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-50 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#1C7C68' }}>Get Product</Link>
                     </div>
                 </div>
                     <p className='fw-bold fs-2 mt-5'>Product Review</p>

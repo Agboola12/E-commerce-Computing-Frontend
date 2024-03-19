@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.jpg'
+import logo from '../assets/logo.png'
 import phone from '../assets/Smartphone.png'
 import laptop from '../assets/Laptop.png'
 import gadget from '../assets/Gadget.png'
@@ -16,7 +16,7 @@ const Home = () => {
     <div>
       <div id={style.header}>
         <nav className="navbar navbar-expand-lg navbar-light">
-          <img src={logo} alt='jjkbd' width='80px' className='ml-5' />
+          <img src={logo} alt='jjkbd' width='100px' id={style.logo} className='ml-5' />
           <button className="navbar-toggler bg-white btn-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon "></span>
           </button>

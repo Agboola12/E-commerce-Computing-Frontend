@@ -10,6 +10,12 @@
     width: 100%;
     }
 
+ #logo{
+        border : 3px solid #1B4579;
+        border-radius: 50px;
+ }  
+ 
+ 
 #head {
     position: relative;
     overflow: hidden;

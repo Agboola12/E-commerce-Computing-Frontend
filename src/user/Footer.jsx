@@ -50,8 +50,8 @@ const Footer = () => {
 
                         <ul className="list-unstyled d-flex mb-0" style={{ gap: "10px" }}>
                             <li><Link to="https://www.facebook.com/elijah.amosun.79?mibextid=ibOpuV" className="text-white"><i className="fab fa-facebook"></i></Link></li>
-                            <li><Link to="#" className="text-white"><i className="fab fa-instagram"></i></Link></li>
-                            <li><Link to="#" className="text-white"><i className="fab fa-whatsapp"></i></Link></li>
+                            <li><Link to="https://www.instagram.com/amosunelijah01?igsh=MTk4eDl6Zjk5OXlmMQ%3D%3D&utm_source=qr" className="text-white"><i className="fab fa-instagram"></i></Link></li>
+                            <li><Link to="https://wa.link/sea1s7" className="text-white"><i className="fab fa-whatsapp"></i></Link></li>
                         </ul>
                     </div>
                 </div>
